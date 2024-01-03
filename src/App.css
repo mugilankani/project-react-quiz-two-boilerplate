@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  background-color: #3A2E7D;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13vh;
+}
+.quiz{
+  width: 75vw;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 5vh;
+}
+.option{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.option button{
+  width: 25vw;
+  color: white;
+  font-size: medium;
+  border-radius: 1.5rem;
+  border: none;
+  padding: 1vh ;
+  background-color: #1895EA;
+}
+.options3{
+  gap: 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.options3 button{
+  width: 6rem;
+  border: none;
+  padding: 0.7vh 1.4vw;
+  font-weight: bold;
+
+  
+}
+.preBtn{
+  background-color:blue;
+}
+.nexBtn{
+  background-color: green;
+}
+.quBtn{
+  background-color: red;
+}
+
+.noOfchoice{
+  margin: 0;
+  position: relative;
+  left: -30vw;
+
+}
+.Question{
+  margin: 0;
+}
+.questinNo{
+  margin: 0;
+  margin-bottom: 4vh;
+}
